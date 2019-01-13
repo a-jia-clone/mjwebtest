@@ -9,17 +9,15 @@ import DropDownMenu from 'material-ui/DropDownMenu';
 import MenuItem from 'material-ui/MenuItem';
 import DatePicker from 'material-ui/DatePicker';
 
+import { GitAction } from '../../store/action/gitAction'
+import '../../app/App.css';
+import './productDetails.component.css';
+
 const styles = {
   customWidth: {
     width: 200,
   },
 };
-
-
-import { GitAction } from '../../store/action/gitAction'
-import '../../app/App.css';
-import './productDetails.component.css';
-
 
 function mapStateToProps(state) {
     return {
